@@ -15,7 +15,7 @@ namespace COMP003A.Assignment4
             int limit = Convert.ToInt32(Console.ReadLine());
             string output = "#";
 
-            for (int i = 0; i < limit; i++)
+            for (int i = 0; i <= limit; i++)
             {
                 Console.WriteLine(output);
                 output += "#";
