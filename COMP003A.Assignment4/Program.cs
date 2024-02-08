@@ -44,7 +44,7 @@ namespace COMP003A.Assignment4
             int counter = 0;
             do
             {
-                Console.WriteLine($"{counter}");
+                Console.WriteLine(counter);
                 counter += 5;
             }
             while (counter <= 50);
